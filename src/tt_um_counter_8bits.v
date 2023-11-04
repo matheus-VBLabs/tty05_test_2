@@ -55,7 +55,7 @@ module tt_um_counter_8bits (
   //input wire clk,
   wire A8, A7, A6, A5, A4, A3, A2, A1;
   assign uo_out[6:0] = {A7, A6, A5, A4, A3, A2, A1};
-
+    assign uo_out[7] = 1'b0;
 assign uio_out = 8'b0;
 reg clkA;
 
